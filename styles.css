@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    background: #606c38;
+    margin: 0;
+    text-align: center; 
+}
+
+   
+    
+
+#title {
+    background: #588157;
+    color: white;
+    display: centr;
+    margin-right: 175px;
+    margin-left: 175px;
+    margin-top: 20px;
+    margin-bottom:30px;
+    padding: 15px 15px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px black 
+}
+
+#island-div {
+    height: 180px;
+    width: 650px;
+    background-image: url('./images/island.jpg');
+    background-size: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 1px;
+    box-shadow: 2px 2px 12px 1px;
+    border-radius: 20px 
+}
+
+.header {
+    display: flex;
+    background: #588157;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 40px;
+    flex-direction: column;
+    text-shadow: 3px 3px 4px black
+}
+   
+.title-frame{
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    margin-top: 80px;
+    margin-bottom: 30px
+}
+     
+.img-row {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-row {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-frame {
+    width: 20%;
+    border-radius: 50% 
+}
+
+.image-tag {
+    width: 19%;
+    background: #414833;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 5px 10px black
+}
+
+.image-info {
+    width: 33%;
+    margin-top: 3px 
+}
+
+#map{
+  width:  270px;
+}
+
+.map-text {
+   margin-top:40px
+}
+
+.map-tag {
+    width: 700px;
+    display: flex;
+    color: white;
+    background: #073b4c;
+    margin: 100px;
+    margin-left: 20%;
+    border: 1px dotted black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 1px 5px 10px black;
+    text-shadow: 1px 1px 2px black
+}
